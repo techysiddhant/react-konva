@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  background-color: #333;
+  color: #dddddd;
+  padding: 20px 0;
+  text-align: center;
+}
+.canvas-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap:40px;
+  width: 100%;
+  overflow-x: hidden;
+  padding: 20px 0;
+}
+.actions{
+  /* width: 50%; */
+}
+.canvas{
+  width: 450px;
+  height:450px;
+  border:1px solid black;
+}
+.video-box{
+  display: flex;
+  gap:20px;
+
+}
